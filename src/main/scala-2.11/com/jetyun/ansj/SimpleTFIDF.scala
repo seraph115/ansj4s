@@ -13,21 +13,30 @@ object SimpleTFIDF {
     
     val sc = new SparkContext("local[2]", "First Spark App")
 
-    val filePath = "/Users/seraph/code/workspace/ansj4s/output/results/part-00001"
+    val filePath = "/Users/seraph/code/workspace/ansj4s/output/segment/part-00000"
     
     // Load documents (one per line).
-    val documents: RDD[Seq[String]] = sc.textFile(filePath).map(_.split(" ").toSeq)
+    val documents: RDD[Seq[String]] = sc.textFile(filePath).map(_.split("\t").toSeq)
 
     val hashingTF = new HashingTF()
     val tf: RDD[Vector] = hashingTF.transform(documents)
-
+    
+    tf.collect().foreach{x =>
+      val v:Vector = x
+      println(v)
+    }
+    
+    println("===============================================================================")
+    
     tf.cache()
     val idf = new IDF().fit(tf)
     val tfidf: RDD[Vector] = idf.transform(tf)
+
     tfidf.collect().foreach{x =>
       val v:Vector = x
-      println(x)
+      println(v)
     }
+    
   }
   
 }
