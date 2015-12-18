@@ -2576,7 +2576,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 694ms :: artifacts dl 29ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1604ms :: artifacts dl 58ms[0m
 [0m[[0mdebug[0m] [0m	report for default#ansj4s-build;0.1-SNAPSHOT compile produced in /Users/seraph/code/workspace/ansj4s/project/target/resolution-cache/reports/default-ansj4s-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ansj4s-build;0.1-SNAPSHOT runtime produced in /Users/seraph/code/workspace/ansj4s/project/target/resolution-cache/reports/default-ansj4s-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ansj4s-build;0.1-SNAPSHOT test produced in /Users/seraph/code/workspace/ansj4s/project/target/resolution-cache/reports/default-ansj4s-build-test.xml[0m
@@ -2590,5 +2590,5 @@
 [0m[[0mdebug[0m] [0m	report for default#ansj4s-build;0.1-SNAPSHOT docs produced in /Users/seraph/code/workspace/ansj4s/project/target/resolution-cache/reports/default-ansj4s-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ansj4s-build;0.1-SNAPSHOT pom produced in /Users/seraph/code/workspace/ansj4s/project/target/resolution-cache/reports/default-ansj4s-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ansj4s-build;0.1-SNAPSHOT scala-tool produced in /Users/seraph/code/workspace/ansj4s/project/target/resolution-cache/reports/default-ansj4s-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (694ms resolve - 29ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1604ms resolve - 58ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
